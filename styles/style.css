@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600&display=swap');
 
-* {
-  font-size: 18px;
-  box-sizing: border-box;
-  font-family: 'Bai Jamjuree', sans-serif;
-}
-
 :root {
   /* ### Primary */
   --Stron-Cyan: hsl(171, 66%, 44%);
@@ -14,6 +8,16 @@
   /* ### Neutral */
   --Dark-Grayish-Blue: hsl(233, 100%, 69%);
   --Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+* {
+  font-size: 18px;
+  box-sizing: border-box;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+html {
+  font-size: 18px;
 }
 
 /* all a and p  */
@@ -40,17 +44,17 @@ p {
 
 .logo {
   width: 6.25rem;
-  margin: 100px 0 15px;
+  margin: 5.556rem 0 0.833rem
 }
 
 .heading h1 {
   font-size: 2.222rem;
-  margin: 15px 0 15px;
+  margin: 0.833rem 0 0.833rem;
 }
 
 .sub-heading p {
   margin: 0;
-  padding: 0 200px;
+  padding: 0 11.111rem;
   color: var(--Grayish-Blue);
   text-align: center;
 }
@@ -64,33 +68,38 @@ p {
   text-align: center;
   color: #f5f5f5;
 }
+
+/* button */
 .buttons a {
   color: #f5f5f5;
 }
 
 .btn1 {
-  padding: 15px 30px 12px;
-  margin-right: 18px;
+  padding: 0.833rem 1.667rem 0.667rem;
+  margin-right: 1rem;
   border-radius: 60px;
   background-color: var(--Stron-Cyan);
   box-shadow: -1px 2.5px 2px 2px var(--Stron-Cyan);
 }
 
 .btn2 {
-  padding: 15px 30px 12px;
+  padding: 0.833rem 1.667rem 0.667rem;
   border-radius: 60px;
-  margin-left: 5px;
+  margin-left: 0.278rem;
   background-color: var(--Ligh-Blue);
   box-shadow: -1px 2.5px 2px 2px var(--Ligh-Blue);
 }
 
+.btn1:hover , .btn2:hover{
+  opacity: 0.8;
+}
 /* keep tracks */
 .track {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 5.556rem;
   position: relative;
 }
 
@@ -99,18 +108,18 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 2.222rem;
   position: relative;
 }
 
 .top-track h2 {
-  font-size: 35px;
-  margin: 15px 0;
+  font-size: 1.944rem;
+  margin: 0.833rem 0;
 }
 
 .top-track p {
   margin: 0;
-  padding: 0 300px;
+  padding: 0 16.667rem;
   text-align: center;
 }
 
@@ -122,24 +131,24 @@ p {
 
 .img-track {
   position: relative;
-  left: -50px;
-  top: 50px;
+  left: -2.778rem;
+  top: 2.778rem;
 }
 
 .right-text-track {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 50px;
+  margin-left: 2.778rem;
 }
 
 .right-text-track .right-text h3 {
-  margin: 25px 0 0;
+  margin: 1.389rem 0 0;
 }
 
 .right-text-track .right-text p {
-  padding-right: 280px;
-  margin: 1px 0 12px;
+  padding-right: 15.556rem;
+  margin: 0.056rem 0 0.667rem;
 }
 
 /* Acess clipboard */
@@ -148,23 +157,23 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 125px;
+  margin-top: 6.944rem;
 }
 
 .top-access h2 {
-  font-size: 35px;
-  margin: 15px 0;
+  font-size: 1.944rem;
+  margin: 0.833rem 0;
   text-align: center;
 }
 
 .top-access p {
   margin: 0;
-  padding: 0 350px;
+  padding: 0 19.444rem;
   text-align: center;
 }
 
 .img-access {
-  margin-top: 60px;
+  margin-top: 3.333rem;
 }
 
 /* worflow and feathers */
@@ -173,11 +182,11 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 2.778rem;
 }
 .top-workflow h2 {
-  font-size: 35px;
-  margin: 15px 0;
+  font-size:  1.944rem;
+  margin: 0.833rem 0;
   text-align: center;
 }
 
@@ -191,23 +200,23 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px;
-  margin-top: 20px;
+  padding: 2.778rem;
+  margin-top: 1.111rem;
   text-align: center;
 }
 
 .feature {
-  padding: 0 20px;
+  padding: 0 1.111rem;
 }
 
 .feature h3 {
-  font-size: 20px;
-  margin: 30px 0 10px;
+  font-size: 1.111rem;
+  margin: 1.667rem 0 0.556rem;
 }
 
 .feature p {
   margin: 0;
-  padding: 0 5px;
+  padding: 0 0.278rem;
   text-align: center;
 }
 
@@ -216,7 +225,7 @@ p {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 120px;
+  margin-top: 6.667rem;
 }
 
 /* .clipboard for ios and mac */
@@ -228,17 +237,17 @@ p {
 }
 
 .clip-heading {
-  margin-top: 120px;
+  margin-top: 6.667rem;
 }
 
 .clip-heading h2 {
-  font-size: 35px;
-  margin: 15px 0;
+  font-size:  1.944rem;
+  margin: 0.833rem 0;
 }
 
 .clip-sub-heading p {
   margin: 0;
-  padding: 0 350px;
+  padding: 0 19.444rem;
   text-align: center;
 }
 
@@ -251,9 +260,9 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 5.556rem;
   color: black;
-  padding: 8px 15px;
+  padding: 0.444rem 0.833rem;
 }
 
 .foot-logo {
@@ -267,14 +276,14 @@ footer {
 
 .link1 ul {
   padding: 0;
-  margin: 0 20px 0 0;
+  margin: 0 1.111rem 0 0;
 }
 
 .link1 ul li {
   list-style: none;
-  margin: 10px 15px 0 0;
-  padding-right: 20px;
-  padding-bottom: 10px;
+  margin: 0.556rem 0.833rem 0 0;
+  padding-right: 1.111rem;
+  padding-bottom: 0.556rem;
 }
 
 .link1 ul li a {
@@ -282,7 +291,7 @@ footer {
 }
 
 .social-links ul {
-  margin-top: 30px;
+  margin-top: 1.667rem;;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -290,7 +299,7 @@ footer {
 
 .social-links ul li {
   list-style: none;
-  padding-right: 15px;
+  padding-right: 0.833rem;
 }
 
 .link1 a:hover {
@@ -301,7 +310,7 @@ footer {
   fill: var(--Stron-Cyan);
 }
 
-.attribution {
+/* .attribution {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -316,7 +325,7 @@ footer {
 
 .attribution a:hover {
   text-decoration: underline;
-}
+} */
 
 /* all media query */
 
@@ -324,48 +333,48 @@ footer {
 @media all and (max-width: 1024px) {
   .top-access p {
     margin: 0;
-    padding: 0 50px;
+    padding: 0 2.778rem;
     text-align: center;
   }
 
   .top-track p {
-    padding: 0 50px;
+    padding: 0 2.778rem;
   }
 
   .img-access {
-    margin-top: 50px;
+    margin-top: 2.778rem;
   }
 
   .right-text-track .right-text p {
-    padding-right: 20px;
-    margin: 1px 0 10px;
+    padding-right: 1.111rem;
+    margin: 0.056rem 0 0.556rem;
   }
 
   .workflow {
-    margin-top: 40px;
+    margin-top: 2.222rem;
   }
 
   .top-workflow p {
-    padding: 0 40px;
+    padding: 0 2.222rem;
   }
 
   .clients {
-    margin-top: 95px;
+    margin-top: 5.556rem;
   }
 
   .clip-heading {
-    margin-top: 100px;
+    margin-top: 5.556rem;
   }
 
   .clip-sub-heading p {
-    padding: 0px 50px;
+    padding: 0px 2.778rem;
   }
 }
 
 /* tablet view */
 @media all and (max-width: 786px) {
   .sub-heading p {
-    padding: 0px 130px;
+    padding: 0px 3.333rem;
   }
 
   .buttons {
@@ -373,13 +382,13 @@ footer {
   }
 
   .track {
-    margin-top: 75px;
+    margin-top: 4.167rem;
   }
 
   .img-track {
-    left: 22px;
-    top: 45px;
-    max-width: 500px;
+    left: 1.222rem;
+    top: 2.5rem;
+    max-width: 27.778rem;;
     height: auto;
   }
 
@@ -388,23 +397,23 @@ footer {
   }
 
   .right-text-track {
-    margin-top: 50px;
+    margin-top: 2.778rem;
     text-align: center;
   }
 
   .img-access {
-    max-width: 600px;
+    max-width: 33.333rem;
   }
 
   .all-features {
     flex-direction: column;
-    padding: 35px;
-    margin-top: 30px;
+    padding: 1.944rem;
+    margin-top: 1.667rem;
   }
 
   .feature {
     padding: 0 0px;
-    margin-bottom: 30px;
+    margin-bottom: 1.667rem;
   }
 
   .feature p {
@@ -416,14 +425,14 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 3.333rem;
   }
   .clients-icon {
-    width: 170px;
+    width: 9.444rem;
   }
 
   .foot {
-    margin-top: 90px;
+    margin-top: 5rem;
     padding: 0px;
   }
 
@@ -431,20 +440,20 @@ footer {
     width: 2.5rem;
   }
   .link1 ul li {
-    margin: 5px 12px 0 0;
-    padding-right: 7px;
-    padding-bottom: 5px;
+    margin: 0.278rem  0.667rem 0 0;
+    padding-right: 0.389rem;
+    padding-bottom: 0.278rem;
   }
 
   .link1 a {
-    font-size: 12px;
+    font-size: 0.667rem;
   }
 }
 
 /* mobile device */
 @media all and (max-width: 435px) {
   p {
-    font-size: 16px;
+    font-size: 0.889rem;
   }
 
   .hero {
@@ -457,7 +466,7 @@ footer {
   }
 
   .sub-heading p {
-    padding: 0px 25px;
+    padding: 0px 1.389rem;
     line-height: 1.5;
   }
 
@@ -466,30 +475,30 @@ footer {
   }
 
   .btn1 {
-    padding: 12px 70px;
+    padding: 0.667rem 4rem;
     margin-right: 0;
   }
 
   .btn2 {
-    margin-top: 25px;
-    padding: 12px 70px;
+    margin-top: 1.389rem;
+    padding: 0.667rem 4rem;
     margin-left: 0;
   }
 
   .top-track h2 {
-    font-size: 30px;
+    font-size: 1.667rem;
     text-align: center;
   }
 
   .top-track p {
-    padding: 0 25px;
+    padding: 0 1.389rem;
   }
 
   .img-track {
     position: initial;
     left: 0;
     top: 0;
-    max-width: 300px;
+    max-width: 16.667rem;
   }
 
   .right-text-track {
@@ -501,45 +510,45 @@ footer {
   }
 
   .right-text-track .right-text p {
-    padding: 5px 25px 0;
+    padding: 0.278rem 1.389rem 0;
     margin: 0;
   }
 
   .top-access h2 {
-    font-size: 30px;
-    margin: 10px 0;
+    font-size: 1.667rem;
+    margin: 0.556rem 0;
   }
 
   .top-access p {
-    padding: 0 25px;
+    padding: 0 1.389rem;
   }
 
   .img-access {
-    max-width: 350px;
+    max-width: 19.444rem;
   }
 
   .workflow {
-    margin-top: 60px;
+    margin-top: 3.33rem;
   }
 
   .clients-icon {
-    width: 130px;
+    width: 7.222rem;
   }
 
   .clip-heading h2 {
-    font-size: 28px;
+    font-size: 1.667rem;
     text-align: center;
   }
 
   .clip-sub-heading p {
-    padding: 0px 25px;
+    padding: 0px 1.389rem;
   }
   .foot {
     flex-direction: column;
   }
 
   .foot-logo {
-    margin: 25px 0;
+    margin: 1.389rem 0;
   }
 
   .foot-links {
@@ -551,9 +560,9 @@ footer {
   }
 
   .link1 ul li {
-    margin: 0 0 10px;
-    padding-right: 0px;
-    padding-bottom: 0px;
+    margin: 0 0  0.556rem;
+    padding-right: 0;
+    padding-bottom: 0;
   }
 
   .social-links ul {
@@ -561,6 +570,6 @@ footer {
   }
 
   .social-links ul li {
-    padding: 0 25px;
+    padding: 0 1.389rem;
   }
 }
